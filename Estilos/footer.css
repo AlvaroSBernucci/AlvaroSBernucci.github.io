@@ -1,0 +1,23 @@
+footer{
+  background-color: #000;
+  color: #a3a3a3;
+}
+.footer-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  padding-top: 70px;
+}
+.footer-conteudo{
+  font-size: 1.5rem;
+  word-wrap: break-word;
+  max-width: 40ch;
+}
+.footer-informacoes{
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  display: grid;
+  gap: 30px;
+}

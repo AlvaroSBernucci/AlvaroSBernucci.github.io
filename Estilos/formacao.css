@@ -1,0 +1,115 @@
+.formacao{
+  background:#141414;
+  color: #fff;
+  padding: 120px 20px;
+  position: relative;
+}
+.formacao-geral{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: start;
+}
+.formacao-descricao{
+  font-size: 1.5rem;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+}
+.formacao-descricao strong{
+  color: #fff;
+}
+.formacao-tudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.formacao-tipo{
+  text-transform: uppercase;
+  color: #a3a3a3;
+  font-size: 0.875rem;
+}
+.formacao-faculdade{
+  color: #a3a3a3;
+}
+.formacao-detalhe{
+  padding: 20px;
+  background-color: #000;
+}
+.formacao-detalhe li{
+  display: flex;
+  flex-direction: column;
+  justify-items: end;
+  position: relative;
+}
+.formacao-curso{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.formacao-1{
+  max-width: 6ch;
+  color: #000;
+}
+.formacao-curso::before{
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background:linear-gradient(#b6f8b6,#67dd0a);
+  position: absolute;
+  left: -24px;
+}
+.formacao-carga{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.formacao-carga span,
+.formacao-idioma span{
+  color: #a3a3a3;
+}
+.formacao-idioma{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.formacao-capacitacao{
+  position: relative;
+}
+.formacao-capacitacao h3{
+  font-size: 0.875rem;
+  color: #a3a3a3;
+}
+.cursos::before{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(../Imagens/cursos.svg) no-repeat;
+  position: absolute;
+  left: -40px;
+  top: -5px;
+}
+.idioma::before{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(../Imagens/idiomas.svg) no-repeat;
+  position: absolute;
+  left: -40px;
+  top: -5px;
+}
+.formacao-geral::after{
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url(../Imagens/detalhe.svg) no-repeat center;
+  position: absolute;
+  bottom: -50px;
+  left: 200px;
+}
+@media (max-width: 805px){
+  
+}
